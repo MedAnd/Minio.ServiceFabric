@@ -29,7 +29,8 @@
     <None Include="Scripts\Deploy-FabricApplication.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ApplicationPackageRoot\Minio.ServiceFabricPkg\Code\minio.exe" />
+    <Content Include="ApplicationPackageRoot\Minio.ServiceFabricPkg\Code\minio_server.bat" />
+    <Content Include="ApplicationPackageRoot\Minio.ServiceFabricPkg\Code\minio_gateway_azure.bat" />
     <Content Include="ApplicationPackageRoot\Minio.ServiceFabricPkg\Config\Settings.xml" />
     <Content Include="ApplicationPackageRoot\Minio.ServiceFabricPkg\ServiceManifest.xml" />
     <Content Include="packages.config" />

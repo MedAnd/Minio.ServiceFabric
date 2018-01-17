@@ -23,9 +23,10 @@
     -->
     <EntryPoint>
       <ExeHost>
-        <Program>minio.exe</Program>
-        <Arguments>server --config-dir C:\Minio\ C:\Minio\Data</Arguments>
-        <WorkingFolder>Work</WorkingFolder>
+        <Program>minio_gateway_azure.bat</Program>
+        <!-- <Program>minio_server.bat</Program> -->
+        <Arguments></Arguments>
+        <WorkingFolder>CodeBase</WorkingFolder>
         <!-- Uncomment to log console output (both stdout and stderr) to one of the
              service's working directories. -->
         <!-- <ConsoleRedirection FileRetentionCount="5" FileMaxSizeInKb="2048"/> -->
