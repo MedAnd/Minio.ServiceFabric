@@ -23,6 +23,6 @@ Open the ServiceManifest.xml file found in Minio.ServiceFabricPkg folder and in 
 Two example bat files are provide as guidance:
 
 * minio_gateway_azure.bat - `Minio acts as a gateway server and forwards data to Azure Blob Storage`
-* minio_server.bat - `Minio will save data to the local Node's file-system or equivalent`
+* minio_server.bat - `Minio will save data to the Node's local file-system or equivalent`
 
-> ** If running Minio as a gateway to Azure Blob Storage, don't forget to set the MINIO_ACCESS_KEY (AccountName) and MINIO_SECRET_KEY (AccountKey) corresponding to your Azure Blob Storage account.**
+> **If running Minio as a gateway to Azure Blob Storage, don't forget to set the MINIO_ACCESS_KEY (AccountName) and MINIO_SECRET_KEY (AccountKey) corresponding to your Azure Blob Storage account.**
