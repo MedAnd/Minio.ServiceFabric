@@ -15,7 +15,7 @@ Minio supports filesystem and erasure code backends for DAS and JBODs, external 
 ### Getting started
 Download the latest version of [Minio](https://www.minio.io/downloads.html#download-server-windows) and copy minio.exe to the Minio.ServiceFabricPkg\Code folder:
 
-[![Minio.ServiceFabricPkg\Code folder](https://raw.githubusercontent.com/MedAnd/Minio.ServiceFabric/master/Code_folder.png)]
+![Minio.ServiceFabricPkg\Code folder](https://raw.githubusercontent.com/MedAnd/Minio.ServiceFabric/master/Code_folder.png)
 
 ### Configure Service Fabric Minio 
 Open the ServiceManifest.xml file found in Minio.ServiceFabricPkg folder and in the EntryPoint section elect to run Minio in either Gateway or Server mode. 
