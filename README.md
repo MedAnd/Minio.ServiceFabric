@@ -22,7 +22,7 @@ Minio for Service Fabric can also be installed via the Package Manager Console:
 Install-Package Minio.ServiceFabric
 ```
 
-Before you publish to Service Fabric though, make sure to check the ApplicationManifest.xml file. The InstanceCount should both be set to -1 (SingletonPartition).
+Before you publish to Service Fabric though, make sure to check the ApplicationManifest.xml file. The InstanceCount should be set to -1 (SingletonPartition).
 
 ### Configure Service Fabric Minio 
 Open the ServiceManifest.xml file found in Minio.ServiceFabricPkg folder and in the EntryPoint section elect to run Minio in either Gateway or Server mode.
